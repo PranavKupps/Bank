@@ -1,5 +1,3 @@
-// Project identifier: 292F24D17A4455C1B5133EDD8C7CEAA0C9570A98
-
 #include <array>
 #include <algorithm>
 #include <cstddef>
