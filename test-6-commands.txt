@@ -1,0 +1,17 @@
+#This is the sample commands file, showing the format of each command.
+login tenth 372419 231.43.171.61
+login mmdarden 196204 231.43.171.61
+login mmdarden 196210 231.43.171.61
+login mmdarde 196204 231.43.171.61
+out mmdarden 196204 231.43.171.61
+login mertg 080499 231.43.171.61
+place 08:03:01:40:22:34 134.31.78.43 mertg paoletti 2000 09:03:01:40:22:34 s
+place 08:03:01:40:22:35 134.31.78.43 mertg mmdarden 2000 08:03:02:40:22:34 s
+place 08:03:01:40:22:36 231.43.171.61 mertg paoletti 2000 08:03:02:40:22:34 s
+place 08:05:04:40:22:36 231.43.171.61 mertg paoletti 2000 08:05:05:40:44:34 s
+place 09:00:04:05:70:00 231.43.171.61 mertg paoletti 2000 09:00:05:00:00:00 s
+$$$
+r 08:03:01:40:22:34 010:23:07:11:62:34
+s 09:00:04:47:89:00
+s 09:00:05:47:89:00
+r 12:03:01:40:22:36 14:23:01:40:22:36

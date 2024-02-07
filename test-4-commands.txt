@@ -1,0 +1,29 @@
+#This is the sample commands file, showing the format of each command.
+#You can put comments here in the operations section.
+login mertg 080400 231.43.171.61
+place 08:02:01:40:22:34 134.31.78.43 mertg paoletti 2000 09:02:01:40:22:34 s
+login mertg 080499 231.43.171.61
+login mertg 080499 231.43.171.62
+login mertg 080498 231.43.171.61
+place 08:03:01:40:22:34 231.43.171.61 mertg paoletti 100 08:03:02:40:22:34 s
+place 08:03:01:40:22:35 231.43.171.62 mertg paoletti 101 08:03:02:40:22:34 s
+place 08:03:01:40:22:36 231.43.171.61 mertg paoletti 102 08:03:01:40:22:39 s
+login mertg 080499 231.43.171.64
+login mertg 080499 231.43.171.66
+out mertg 231.43.171.64
+out mertg 231.43.171.61
+place 08:03:01:40:22:84 231.43.171.66 mertg paoletti 110 08:03:02:40:22:34 s
+login third 231.45.171.66
+place 19:01:04:20:43:55 231.45.171.66 third third 30000 19:01:04:20:83:55 s
+place 28:03:01:40:25:84 231.43.171.61 mertg paoletti 115 28:03:02:40:22:34 s
+place 28:03:01:40:25:99 231.43.171.64 mertg mertg 200 28:03:02:40:22:34 s
+place 28:03:01:40:45:99 231.43.171.64 mertg first 5 28:03:02:41:22:34 s
+login fourth 231.45.171.66
+place 40:01:04:20:43:78 231.45.171.66 fourth first 1010 40:01:04:20:83:55 s
+# The operations section ends with $$$, followed by the queries (if any).
+$$$
+l 08:03:01:40:22:35 08:03:02:40:22:34
+r 08:03:01:40:22:35 08:03:02:40:22:34
+s 00:03:02:30:22:36
+s 30:03:02:30:22:36
+s 08:02:01:40:22:34
